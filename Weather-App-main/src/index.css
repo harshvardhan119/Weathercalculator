@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Sacramento',cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+.app:before {
+  content: '';
+  background: url('./assets/weather.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.app .search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input {
+  margin:10px;
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius:5px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+
+.app button{
+  cursor: pointer;
+  padding: .5rem;
+  font-size: .8rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
+
+.container {
+  max-width: 400px;
+  height: 400px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.app .description img {
+  position:absolute;
+  top:2.8rem;
+  right:1rem;
+  border-radius: 30%;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 1rem ;
+  border-radius: 12px;
+  
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 4px;
+  text-align: left;
+  color:rgb(255, 255, 255);
+  padding:1rem;
+
+}
+
+.des{
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
