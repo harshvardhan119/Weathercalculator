@@ -8,7 +8,7 @@ Welcome to the Weather App! This application allows users to check the current t
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
+- [Images](#Photos)
 - [API Information](#api-information)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,7 +33,6 @@ The Weather App provides users with real-time weather information for various st
 - **Weather API**: Provides weather data (e.g., OpenWeatherMap, WeatherAPI, etc.).
 
 ## Photos
--![alt text](image.png)
+![alt text](image.png)
 
--![alt text](image-1.png)
-
+![alt text](image-1.png)
