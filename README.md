@@ -35,4 +35,4 @@ The Weather App provides users with real-time weather information for various st
 ## Photos
 ![alt text](image.png)
 ![alt text](image2.png)
-![alt text](image1.png)
+
